@@ -1,0 +1,16 @@
+.photosList{
+    width: 100%;
+    display: grid;
+    /* justify-content: center;     */
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(3, 1fr);
+    flex-grow: 1;
+    gap: 10px;
+}
+
+@media all and (max-width:768px) {
+    .photosList{
+    grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
