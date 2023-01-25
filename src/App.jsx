@@ -6,6 +6,7 @@ import Gallery from './pages/Gallery/Gallery'
 import Container from './components/Container/Container'
 import Navbar from './components/Navbar/Navbar'
 import axios from 'axios'
+import Contact from './pages/Contact/Contact'
 
 function App() {
   const [photos,setPhotos] = useState([])
@@ -28,6 +29,10 @@ function App() {
        setShowModal={setShowModal} 
        modalImgIndex={modalImgIndex}
        setModalImgIndex={setModalImgIndex}
+       />}
+       />
+       <Route path='/contact' element={<Contact
+       
        />}
        />
     </Routes>

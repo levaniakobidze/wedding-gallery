@@ -1,0 +1,50 @@
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contact-cont{
+    width: 60%;
+    display: flex;
+}
+
+.contact-img{
+    width: 480px;
+    /* height: 550px; */
+}
+.contact-img img {
+    width: 100%;
+}
+.contacts {
+    margin-left: 30px;
+}
+.social{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+}
+.social p {
+    margin-left: 10px;
+    color: grey;
+}
+.icon{
+    color: grey;
+    font-size: 30px;
+}
+@media all and (max-width:768px) {
+    .contact-cont{
+        flex-direction: column;
+    }
+    .contact-img{
+        width: 100%;
+    }
+    .contact-cont{
+        width: 100%;
+    }
+    .contact{
+        height: auto;
+    }
+  
+}
