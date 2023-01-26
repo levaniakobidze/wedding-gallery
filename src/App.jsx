@@ -14,7 +14,7 @@ function App() {
   const [modalImgIndex, setModalImgIndex] = useState(0)
 
   useEffect(() => {
-    axios.get('http://localhost:5000')
+    axios.get('https://wedding-api-eo5d.onrender.com/')
     .then((res) => setPhotos(res.data))
     .catch((err) => console.log(err))
   },[])
