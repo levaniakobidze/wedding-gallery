@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className='navbar'>   
         <div className='logo-cont'>
-          <h1 className='logo'>LogOherE</h1>
+          <h1 className='logo'>Lo - Go</h1>
         </div>
         <RxHamburgerMenu className='burger-menu' onClick={() => setActiveMenu(!activeMenu)} />
         <ul className={activeMenu ? 'nav-menu' : 'nav-menu nav-menu-active'}>
